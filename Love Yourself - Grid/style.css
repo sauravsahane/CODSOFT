@@ -1,0 +1,222 @@
+*{
+  margin: 0px;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0px;
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+ul li{
+  text-align: center;
+  padding: 13px 0px;
+}
+ul li:hover{
+  background-color: black;
+}
+ul a{
+  text-decoration: none;
+  color: white;
+}
+nav{
+  font-family: 'Architects Daughter', cursive;
+  background-color: #333;
+  display: grid;
+  grid-template-columns: 74.25% 25.75%;
+}
+#website-name{
+  padding: 13px 25px;
+}
+#website-name a{
+  text-decoration: none;
+  color: white;
+}
+
+.main-page{
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+}
+.start{
+  background-color: black;
+}
+.start img{
+  margin: 10px;
+   width: 94%;
+   height: 179px;
+}
+.middle{
+  text-align: center;
+}
+.middle-1{
+  font-size: 48px;
+  font-family: 'Lobster', cursive;
+  padding: 86.5px;
+  border: 1px solid black;
+}
+
+.s1{
+  border: 1px solid black;
+  padding: 18.6px;
+  background-color: white;
+}
+.s2{
+  border: 1px solid black;
+  padding: 18.6px;
+  background-color: black;
+}
+
+.m-middle{
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: 'Architects Daughter', cursive;
+}
+.m-middle p{
+  padding: 14px 2.5px;
+}
+
+.middle-2{
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+}
+
+.end{
+  background-color: black;
+}
+.end img{
+  margin: 10px;
+  width: 94%;
+  height: 179px;
+}
+
+/* Colors of Life */
+.colors-of-life{
+  display: grid;
+  background-color: yellow;
+  grid-template-columns: 50% 50%;
+}
+
+.color-1, .color-2{
+  display: grid;
+  grid-template-rows: 50% 50%;
+  margin: 31px;
+}
+.color-1{
+  margin-right: 15.5px;
+  background-color: blue;
+}
+.color-2{
+  margin-left: 15.5px;
+  background-color: red;
+}
+
+.color-1-1, .color-1-2, .color-2-1, .color-2-2{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 35px;
+  background-color: pink;
+}
+.color-1-1{
+  background-color: orange;
+  margin-bottom: 17.5px;
+}
+.color-1-2{
+  background-color: magenta;
+  margin-top: 17.5px;
+}
+.color-2-1{
+  background-color: green;
+  margin-bottom: 17.5px;
+}
+.color-2-2{
+  background-color: cyan;
+  margin-top: 17.5px;
+}
+
+.color-all{
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 40px;
+  padding: 12px;
+  font-family: 'Architects Daughter', cursive;
+}
+#color-1-1-1{
+  background: skyblue;
+  margin-right: 20px;
+}
+#color-1-1-2{
+  background: violet;
+  margin-left: 20px;
+}
+#color-1-2-1{
+  background: lime;
+  margin-right: 20px;
+}
+#color-1-2-2{
+  background: gold;
+  margin-left: 20px;
+}
+
+#color-2-1-1{
+  background: blueviolet;
+  margin-right: 20px;
+}
+#color-2-1-2{
+  background: pink;
+  margin-left: 20px;
+}
+#color-2-2-1{
+  background: lightgreen;
+  margin-right: 20px;
+}
+#color-2-2-2{
+  background: orangered;
+  margin-left: 20px;
+}
+
+/* Gallery */
+.last-page{
+  background-color: black;
+}
+.last-page h3{
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.img-all{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.img-c{
+  display: grid;
+  margin: 7px;
+  grid-auto-rows: auto;
+}
+
+.img-c img{
+  width: 100%;
+  margin: 5px;
+}
+.img-c-l{
+  height: auto;
+}
+.img-c-s{
+  height: auto;
+}
+
+/* Footer */
+footer{
+  background-color: #333;
+}
+footer h3{
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-family: 'Architects Daughter', cursive;
+}
